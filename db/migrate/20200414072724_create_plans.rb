@@ -1,4 +1,5 @@
 class CreatePlans < ActiveRecord::Migration[6.0]
+
   def change
     create_table :plans do |t|
       t.string :plan
@@ -6,4 +7,5 @@ class CreatePlans < ActiveRecord::Migration[6.0]
       t.timestamps
     end
   end
+
 end
